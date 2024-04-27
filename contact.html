@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Angela Brown's Portfolio</title>
+  </head>
+  <body>
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div ><img id="logo" src='logo color.png'alt="Angela Brown's logo made of her intials A B in gold"></div>
+    <header class="showcase">
+      <div class="container showcase-inner">
+        <h1>Contact</h1>
+        <p>UX Designer Angela Brown</p>
+        <img id="logo2" src='logo color.png'alt="Angela Brown's logo made of her intials A B in white">
+      </div>
+    </header>
+    <main>
+      <h2>Contact Me By</h2>
+      <section id="contact">
+        <div><h3>Email</h3><p>ambdesign248@gmail.com</p></div>
+        <div><h3>Phone</h3><p>(727) 401-0613</p></div>
+      </section>
+      <h2 id="message">Leave Me A Message</h2>
+      <form>
+        <label for="name">Full Name<span class="required">*</span></label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email<span class="required">*</span></label>
+        <input type="email" id="email" name="email">
+        <label for="phone">Phone<span class="required">*</span></label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <fieldset>
+          <legend>Preferrred Conteacr Method<span class="required">*</span></legend>
+          <input type="radio" id="phone" name="contact" value="phone" checked>
+          <label for="phone">Phone</label>
+          <input type="radio" id="email" name="contact" value="email">
+          <label for="email">Email</label>
+        </fieldset>
+        <label for="message">Message<span class="required">*</span></label>
+        <textarea name="message" rows="10" cols="30"></textarea>
+        
+        <p aria-hidden="true" id="required-description">
+            <span class="required">*</span>Required field
+        </p>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+      
+    </main>
+    <footer>
+        <div id="bottom">
+            <div class="footer-social-icons">
+                <h3 class="_14">Follow Me On</h3>
+                <ul class="social-icons">
+                    <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div><a href="contact.html" class="btn">Contact Me</a></div>
+        <div id="copyright">
+          <img id="logo3" src='logo black and white.png'alt="Angela Brown's logo made of her intials A B in black">
+          <p><small>&copy 2024 Angela Brown</small</p>
+      </div>
+    </footer>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
