@@ -23,6 +23,7 @@ text-align: center;
 a:hover{
 background-color: var(--overlay-color);
 }
+
 nav{
 display: none;
 }
@@ -94,8 +95,11 @@ opacity: 0.7;
 color:#000;
 background-color: #D4B43F;
 }
+footer .btn:hover{
+    background-color: var(--overlay-color);
+}
 footer a:hover{
-background-color: #fff;
+background-color: var(--overlay-color);
 color:#000;
 }
   
@@ -480,6 +484,8 @@ background-color: #322f30;
 .fa-github:hover {
 background-color: #5a32a3;
 }
+
+
 /* Tablet screen changes */
 @media screen and (min-width: 550px) {
     .showcase {
