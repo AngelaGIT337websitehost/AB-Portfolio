@@ -75,6 +75,9 @@ h2{
 padding-top: 30px;
 font-size: 3rem;
 }
+#casestudy{
+    padding-bottom: 50px;
+}
 .message{
 font-size: .2em;
 }
@@ -96,7 +99,7 @@ color:#000;
 background-color: #D4B43F;
 }
 footer .btn:hover{
-    background-color: var(--overlay-color);
+background-color: var(--overlay-color);
 }
 footer a:hover{
 background-color: var(--overlay-color);
@@ -309,7 +312,7 @@ padding-top: 20px;
 font-weight: bold;
 }
 #values ul{
-    padding-top: 10px;
+padding-top: 10px;
 }
 #values ul li  {
 text-decoration: none;
