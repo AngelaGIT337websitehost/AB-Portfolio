@@ -76,7 +76,10 @@ padding-top: 30px;
 font-size: 3rem;
 }
 #casestudy{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+}
+#pdf{
+    padding-top: 20px;
 }
 .message{
 font-size: .2em;
